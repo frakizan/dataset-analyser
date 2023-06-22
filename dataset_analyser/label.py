@@ -1,5 +1,5 @@
 import os
-from bounding_box import BoundingBox
+from .bounding_box import BoundingBox
 
 class Label():
     def __init__(self, name:str) -> None:
@@ -9,11 +9,13 @@ class Label():
 
     def read_data(self) -> list:
         # if the file doesn't exists, it must be created
-        try:    
-            with open(self.name, 'x') as f:
-                f.close()
-        except:
+        if not os.path.exists(self.name):
             pass
+        # try:    
+        #     with open(self.name, 'x') as f:
+        #         f.close()
+        # except:
+        #     pass
 
         with open(self.name, 'r') as f:
             for line in f.readlines():

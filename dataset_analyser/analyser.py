@@ -1,5 +1,6 @@
 from pathlib import Path
-from label import Label
+
+from .label import Label
 
 class Analyser():
     def __init__(self, folder_path:str, classes:list) -> None:

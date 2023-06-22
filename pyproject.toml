@@ -7,10 +7,14 @@ authors = [
     {name = "frakizan", email = "frahhsartori280819@gmail.com"},
 ]
 dependencies = []
-requires-python = ">=3.11"
+requires-python = ">=3.8"
 readme = "README.md"
 license = {text = "MIT"}
 
 [build-system]
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
+
+[project.scripts]
+dataset-analyser = "dataset_analyser.main:main"
+

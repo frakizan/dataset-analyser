@@ -5,6 +5,6 @@
 lock_version = "4.2"
 cross_platform = true
 groups = ["default"]
-content_hash = "sha256:86165c41f17b4b263a688544a3ebc55eccc1713dd177c40649b2e936dab66751"
+content_hash = "sha256:cb30ff0b06924f6f0d5f726b84c255686a2e277a4180b00b7b6e427c05ca202b"
 
 [metadata.files]
