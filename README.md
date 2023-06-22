@@ -1,5 +1,5 @@
 # dataset analyser
-> the analyser must used on YOLO datasets, but you can easly convert other formats into YOLO using this other dataset util:
+> the analyser must used on YOLO datasets, but you can easily convert other formats into YOLO using this other dataset util:
 > [dataset converter](https://github.com/Spaicrab/dataset-converter/tree/main/dataset-converter)
 
 ## Usage
