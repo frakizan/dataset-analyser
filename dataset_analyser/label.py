@@ -9,8 +9,6 @@ class Label():
 
     def read_data(self) -> list:
         # if the file doesn't exists, it must be created
-        if not os.path.exists(self.name):
-            pass
         # try:    
         #     with open(self.name, 'x') as f:
         #         f.close()
